@@ -18,7 +18,7 @@ class SimpleTest extends TestCase
         
         //Assert
         $this->assertSame($sum, $expectedResult, 
-        "La fonction mySum() ne fonctionne plus :-("
+            "La fonction mySum() ne fonctionne plus :-("
         );
     }
 }
